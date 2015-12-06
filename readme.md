@@ -46,3 +46,6 @@ Configuration is inherited, so whatever the root of the tree is set to will prop
 
 ### Helper Functions
 - toggleWrapper(func): takes a function, calls that function on child nodes, but calls toggle on parent nodes.
+
+### Todo
+* Init tree should support children

@@ -100,13 +100,7 @@ var Tree = (function(){
     _settings[this.attr('id')] = settings;
     return this;
   };
-  var killSwitch = 0;
   $.fn.treeLoad = function(data){
-    console.log(data);
-    killSwitch++;
-    if (killSwitch >50){
-      return;
-    }
     if (data == undefined){
       if (settings.load !== undefined){
         settings.load.apply(this);
